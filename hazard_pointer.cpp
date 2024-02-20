@@ -3,10 +3,10 @@
 #include <thread>
 #define RECLAIM_LIST_THRES 1000
 
+// Hazard Pointer inplemented for Hashtable
 // -------------------data structures-------------------
-// single-writer, multiple reader
-// as each thread only operate one entry to the hashtable at a time
-// so each thread has one hazard pointer block in the global struct
+// as each thread only operate one entry to the hashtable at a time so each thread has one hazard pointer block in the global struct
+// the amount of hazard pointers need to be extended in other uses
 template<typename T>
 struct HazardPointerBlock {
     std::thread::id tid; // tid of the owner thread
