@@ -1,5 +1,5 @@
 # Hazard_Pointer_Implementation
-A implementation of hazard Pointer
+An implementation of hazard Pointer
 
 The original idea of hazard pointer is presented in paper ***Hazard Pointers: Safe Memory Reclamation for Lock-Free Objects***[1]. 
 
