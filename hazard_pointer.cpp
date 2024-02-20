@@ -6,7 +6,7 @@
 // Hazard Pointer inplemented for Hashtable
 // -------------------data structures-------------------
 // as each thread only operate one entry to the hashtable at a time so each thread has one hazard pointer block in the global struct
-// the amount of hazard pointers may need being extended in other uses
+// the amount of hazard pointers may need extending in other uses
 template<typename T>
 struct HazardPointerBlock {
     std::thread::id tid; // tid of the owner thread
