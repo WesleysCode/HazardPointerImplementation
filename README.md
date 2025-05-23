@@ -1,4 +1,4 @@
-# HazardPointerImplementation
+# Hazard Pointer Implementation
 An C++ implementation of hazard Pointer
 
 The original idea of hazard pointer is presented in paper ***Hazard Pointers: Safe Memory Reclamation for Lock-Free Objects***[1]. 
